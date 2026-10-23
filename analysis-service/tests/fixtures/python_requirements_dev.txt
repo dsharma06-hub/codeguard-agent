@@ -1,0 +1,4 @@
+# Development requirements (testing dev severity reduction)
+requests == 2.25.0
+pillow < 9.0.0
+pytest

@@ -1,0 +1,4 @@
+mode,precision,recall,f1,false_positive_rate,avg_fix_success_rate,avg_gemini_calls
+Mode A (Static Pipeline),1,0.6667,0.8,0,0,0
+Mode B (Plain Gemini),1,0.6667,0.8,0,0.5,1
+Mode C (Full Agentic),1,0.5,0.6667,0,0.2,19

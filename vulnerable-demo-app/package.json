@@ -1,0 +1,16 @@
+{
+  "name": "vulnerable-demo-shop",
+  "version": "1.0.0",
+  "description": "Demonstration repository containing deliberate security flaws for CodeGuard testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "0.19.2",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.15",
+    "sqlite3": "^5.1.6"
+  }
+}

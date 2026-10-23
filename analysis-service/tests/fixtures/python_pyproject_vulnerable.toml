@@ -1,0 +1,15 @@
+[project]
+name = "sample-python-project"
+version = "0.1.0"
+dependencies = [
+    "requests==2.25.0",
+    "django>=3.0,<3.2.14",
+    "flask",
+    "django-cors-headers==3.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "urllib3<2.0.6",
+]

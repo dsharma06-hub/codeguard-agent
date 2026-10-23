@@ -1,0 +1,11 @@
+{
+  "name": "juice-shop-vulnerable-deps",
+  "version": "1.0.0",
+  "description": "OWASP Juice Shop dependency test set",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "0.1.0",
+    "sanitize-html": "1.4.2",
+    "sqlite3": "^5.0.2"
+  }
+}

@@ -1,0 +1,5 @@
+# Production vulnerable requirements
+django == 3.2.0
+requests >= 2.0.0, < 2.30.0
+flask
+pyyaml ~= 5.3.0

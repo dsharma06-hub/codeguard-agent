@@ -1,0 +1,21 @@
+{
+  "name": "codeguard-vulnerable-fixture",
+  "version": "1.0.0",
+  "description": "Fixture demonstrating true positives, false positives, devDependencies, and unpinned dependencies",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "jsonwebtoken": "^8.5.1",
+    "axios": "^0.21.0",
+    "semver": "^7.0.0",
+    "express": "^4.19.2",
+    "lodash-es": "^4.17.21",
+    "express-validator": "^7.0.0",
+    "moment": "*"
+  },
+  "devDependencies": {
+    "tar": "4.4.13",
+    "node-fetch": "^2.6.0",
+    "lodash": "^4.17.21",
+    "ws": "latest"
+  }
+}

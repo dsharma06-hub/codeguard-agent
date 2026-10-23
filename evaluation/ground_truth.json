@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sample-01",
+    "file": "samples/juice_sqli.js",
+    "description": "OWASP Juice Shop style raw SQL query concatenation",
+    "hasVulnerability": true,
+    "categories": ["injection"]
+  },
+  {
+    "id": "sample-02",
+    "file": "samples/juice_xss.js",
+    "description": "OWASP Juice Shop style reflected XSS / unescaped HTML sink",
+    "hasVulnerability": true,
+    "categories": ["xss"]
+  },
+  {
+    "id": "sample-03",
+    "file": "samples/dvna_secret.js",
+    "description": "DVNA hardcoded production JWT secret and AWS access key",
+    "hasVulnerability": true,
+    "categories": ["secret"]
+  },
+  {
+    "id": "sample-04",
+    "file": "samples/package.json",
+    "description": "Juice Shop package.json with vulnerable dependency versions",
+    "hasVulnerability": true,
+    "categories": ["dependency"]
+  },
+  {
+    "id": "sample-05",
+    "file": "samples/dvna_sqli.py",
+    "description": "DVNA Python SQL injection via f-string query formatting",
+    "hasVulnerability": true,
+    "categories": ["injection"]
+  },
+  {
+    "id": "sample-06",
+    "file": "samples/dvna_xss.py",
+    "description": "DVNA Python Flask template injection / unescaped XSS",
+    "hasVulnerability": true,
+    "categories": ["xss"]
+  },
+  {
+    "id": "sample-07",
+    "file": "samples/clean_math.js",
+    "description": "Clean JavaScript helper functions with no vulnerabilities",
+    "hasVulnerability": false,
+    "categories": []
+  },
+  {
+    "id": "sample-08",
+    "file": "samples/clean_service.py",
+    "description": "Clean Python database service using parameterized queries",
+    "hasVulnerability": false,
+    "categories": []
+  }
+]

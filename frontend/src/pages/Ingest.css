@@ -1,0 +1,118 @@
+/* Scoped styles applied ONLY when /ingest route is mounted */
+html.ingest-active,
+body.ingest-active {
+  height: 100% !important;
+  height: 100dvh !important;
+  max-height: 100dvh !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+body.ingest-active #root {
+  height: 100% !important;
+  height: 100dvh !important;
+  max-height: 100dvh !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+}
+
+.ingest-container {
+  height: 100% !important;
+  height: 100dvh !important;
+  max-height: 100dvh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+/* Centered heading, badge, and description block */
+.ingest-title-block {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.ingest-title {
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.ingest-desc {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-inline: auto !important;
+  max-width: 32rem !important;
+}
+
+/* Fluid responsive adjustments for short screens (height <= 800px) */
+@media (max-height: 800px) {
+  .ingest-main {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .ingest-card {
+    padding: 1.25rem !important;
+    gap: 0.75rem !important;
+  }
+  .ingest-dropzone {
+    padding: 1.25rem 1rem !important;
+  }
+}
+
+/* Small screen safeguard: height <= 650px or width <= 1024px */
+@media (max-height: 650px) {
+  .ingest-header {
+    height: 2.75rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .ingest-main {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+  .ingest-title-block {
+    gap: 0.25rem !important;
+  }
+  .ingest-title {
+    font-size: 1.25rem !important;
+    line-height: 1.2 !important;
+  }
+  .ingest-desc {
+    font-size: 0.75rem !important;
+    line-height: 1.25 !important;
+  }
+  .ingest-card {
+    padding: 1rem !important;
+    gap: 0.625rem !important;
+  }
+  .ingest-tab-btn {
+    padding-top: 0.375rem !important;
+    padding-bottom: 0.375rem !important;
+    font-size: 0.75rem !important;
+  }
+  .ingest-dropzone {
+    padding: 0.875rem 0.75rem !important;
+  }
+  .ingest-dropzone-icon {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .ingest-submit-btn {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    font-size: 0.8125rem !important;
+  }
+  .ingest-footer {
+    font-size: 0.6875rem !important;
+    gap: 0.75rem !important;
+  }
+}
